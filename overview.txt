@@ -1,0 +1,58 @@
+
+1. Project Overview
+
+Objective: Create a program to store, organize, and search recipes, generate shopping lists, and plan weekly meals.
+
+Features:
+  - Add, edit, and delete recipes.
+  - Search recipes by name, ingredients, or tags (e.g., "vegan," "quick").
+  - Plan meals for a week and generate a shopping list based on selected recipes.
+  - Optionally, store data persistently (e.g., a local file or database).
+
+
+2. Core Components
+
+  - Recipe Management:
+      -Structure:
+  	- Name
+	- Ingredients
+	- Steps
+	- Tags
+	- Prep Time
+	- Servings
+      - Fucntions:
+  	- Add new recipe
+	- Edit or delete an existing recipe
+	- List all recipes
+
+  - Search and Filter
+      - Search filters:
+	- Name
+	- Ingredients
+	- Tags
+
+  - Meal Planning
+      - Allow users to select recipes for each day of the week
+      - Display a weekly overview with meals for breakfast, lunch, and dinner
+      - Save meal plans for future reference
+  
+  - Shopping List Generator
+      - Automatically generate a shopping list based on the ingredients of selected recipes
+      - Combine quantities of the same ingredients
+      - Allow users to add or remove items manually
+
+3. Tools and Libraries
+  
+  - Programming Language: Python
+  - Front End: Python using Livy
+
+4. Project Structure
+  
+  -What's Cookin'
+     - main.py 			# Entry point
+     - recipe_manager.py 	# Handles recipe management
+     - meal_planner.py		# Handles meal planning and shopping lists
+     - data
+        -recipes.json		# JSON file to store recipes
+	-meal_plans.json	# JSON file to store meal plans
+     - utils.py			# Helper fucntions (e.g. ingredient merging)
