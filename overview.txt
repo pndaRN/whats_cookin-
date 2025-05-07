@@ -29,7 +29,7 @@ Features:
         - Search filters:
     	- Name
     	- Ingredients
-	    - Tags
+	- Tags
 
     - Meal Planning
         - Allow users to select recipes for each day of the week
@@ -50,9 +50,9 @@ Features:
   
     -What's Cookin'
         - main.py 			# Entry point
-        - recipe_manager.py 	# Handles recipe management
+        - recipe_manager.py 		# Handles recipe management
         - meal_planner.py		# Handles meal planning and shopping lists
         - data
             -recipes.json		# JSON file to store recipes
-        - meal_plans.json	# JSON file to store meal plans
+        - meal_plans.json		# JSON file to store meal plans
         - utils.py			# Helper functions (e.g. ingredient merging)
